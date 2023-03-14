@@ -1,5 +1,18 @@
 [
-  { "username": "andreas", "password": "cba987654321" },
-  { "username": "deriye", "password": "123" },
-  { "username": "omar", "password": "123" }
+    {
+        "username": "andreas",
+        "password": "cba987654321"
+    },
+    {
+        "username": "deriye",
+        "password": "123"
+    },
+    {
+        "username": "omar",
+        "password": "123"
+    },
+    {
+        "username": "emil",
+        "password": "123"
+    }
 ]

@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    .topnav
+        a(href="/") Home
+        a.active(href="browse") Browse
+        a(href="cart") Cart
+        a(href="profile") Profile
+
+    h1 Browse
+    h2(class="tagline") Browse between our different products here
+    div(class="products")
+        for product in productList
+            div(class="product")
+                h4(class="product-title")= product.title
+                p(class="product-price")= product.price
+                button(onclick=`addToCart(${JSON.stringify(product)})`) Add to cart
+
+                img(src=product.image, class="product-image")
+
+  script(src="/javascripts/cart.js") 

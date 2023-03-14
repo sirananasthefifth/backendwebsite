@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Thanos Gauntlet",
+        "price": 199,
+        "image": "https://m.media-amazon.com/images/I/41utCn9TbwL.jpg"
+    },
+    {
+        "title": "Darth Vader Helmet",
+        "price": 199,
+        "image": "https://m.media-amazon.com/images/I/51VN02zK5QL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "title": "Aragorn Sword",
+        "price": 499,
+        "image": "https://m.media-amazon.com/images/I/21YX1HSn2EL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "title": "Lightsaber",
+        "price": 599,
+        "image": "https://cdn.shopify.com/s/files/1/0271/6690/0318/products/Untitled_ada27446-8b0c-46d8-9510-9f13409bd084_grande.jpg?v=1658581292"
+    }
+]

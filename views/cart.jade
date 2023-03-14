@@ -1,0 +1,26 @@
+extends layout
+
+block content
+
+  .topnav
+    a(href="/") Home
+    a(href="/browse") Browse
+    a.active(href="/carts") Cart
+    a(href="/profile") Profile
+
+
+  div#cart-header
+    h1 Cart
+    button#clear-cart-button(onclick="clearCart()") Clear cart
+  div#products-container
+
+    
+
+    for product in result
+        div.product-container.cart
+          img.product-image(src=product.images[product.images.length - 1])
+          div.title-price-container
+            h3= product.title
+            h3 #{product.price} kr
+      else
+        p Cart is empty!

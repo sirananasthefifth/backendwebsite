@@ -1,8 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome #{title}
-  
-  a(href="/logout")
-    button Logout
+
+  .topnav
+    a.active(href="/") Home
+    a(href="browse") Browse
+    a(href="cart") Cart
+    a(href="profile") Profile
+
+
+  h1 The Replica Store
+  p Welcome #{currentUser}
+  p This is the number 1 place to find completely legitimate and definitely not fake movie replicas.
+  a(href="browse") Browse products
